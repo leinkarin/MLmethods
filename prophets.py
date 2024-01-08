@@ -41,3 +41,4 @@ class Prophet:
         if (1 - self.err_prob) > t:
             return y
         return abs(y - 1)
+        print("hi")
